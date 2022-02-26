@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+    .heading-text {
+        text-align: center !important;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sec1-pic {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec4-heading-text {
+        text-align: center;
+    }
+
+    .sec5-grid-item {
+        margin-top: 40px;
+    }
+    .sec6-content {
+        display: block;
+        text-align: center;
+    }
+
+    .badge-container ul li img {
+        width: 100%;
+    }
+    .badge-container ul {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    h2 {
+        font-size: 26px !important;
+    }
+    .badge-container ul {
+        display: flow-root;
+    }
+    .badge-container ul li{
+        display: block;
+        width: 50%;
+        float: left;
+        padding: 0 6px;
+    }
+}
